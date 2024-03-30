@@ -15,15 +15,20 @@
     <linkfile dest="device.bazelrc" src="device.bazelrc"/>
     <linkfile dest="update_symbol_list.sh" src="update_symbol_list.sh"/>
   </project>
+  <project path="private/devices/google/shusky" name="kernel/devices/google/shusky" groups="partner,shusky" >
+    <linkfile dest="build_shusky.sh" src="build_shusky.sh"/>
+    <linkfile dest="private/google-modules/soc/gs/arch/arm64/boot/dts/google/devices/shusky" src="dts/google"/>
+    <linkfile dest=".d1.bazelrc" src="device.bazelrc"/>
+  </project>
   <project path="private/devices/google/slider" name="kernel_devices_google_slider" groups="partner,slider" remote="hentai" >
     <linkfile dest="build_slider.sh" src="build_slider.sh"/>
     <linkfile dest="private/google-modules/soc/gs/arch/arm64/boot/dts/google/devices/slider" src="dts/google"/>
     <linkfile dest=".d2.bazelrc" src="device.bazelrc"/>
   </project>
-  <project path="private/devices/google/shusky" name="kernel/devices/google/shusky" groups="partner,shusky" >
-    <linkfile dest="build_shusky.sh" src="build_shusky.sh"/>
-    <linkfile dest="private/google-modules/soc/gs/arch/arm64/boot/dts/google/devices/shusky" src="dts/google"/>
-    <linkfile dest=".d1.bazelrc" src="device.bazelrc"/>
+  <project path="private/devices/google/bluejay" name="kernel_devices_google_bluejay" groups="partner,slider" remote="hentai" >
+    <linkfile dest="build_bluejay.sh" src="build_bluejay.sh"/>
+    <linkfile dest="private/google-modules/soc/gs/arch/arm64/boot/dts/google/devices/bluejay" src="dts/google"/>
+    <linkfile dest=".d3.bazelrc" src="device.bazelrc"/>
   </project>
   <project path="private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" />
   <project path="private/google-modules/aoc" name="google-modules_aoc" groups="partner" remote="hentai" />
@@ -39,6 +44,7 @@
   <project path="private/google-modules/hdcp/samsung" name="kernel/google-modules/hdcp/samsung" groups="partner" />
   <project path="private/google-modules/lwis" name="kernel/google-modules/lwis" groups="partner" />
   <project path="private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="partner" />
+  <project path="private/google-modules/sensors/hall_sensor" name="kernel/google-modules/sensors/hall_sensor" groups="partner" />
   <project path="private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="partner" />
   <project path="private/google-modules/touch/fts" name="google-modules_touch_fts" groups="partner" remote="hentai" />
   <project path="private/google-modules/touch/goodix" name="kernel/google-modules/touch/goodix_touch" groups="partner" />
