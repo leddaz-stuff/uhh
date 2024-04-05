@@ -50,7 +50,7 @@
   <project path="private/google-modules/gxp/zuma" name="kernel/google-modules/gxp/zuma" groups="partner" />
   <project path="private/google-modules/hdcp/samsung" name="kernel/google-modules/hdcp/samsung" groups="partner" />
   <project path="private/google-modules/lwis" name="kernel/google-modules/lwis" groups="partner" />
-  <project path="private/google-modules/power/reset" name="kernel/google-modules/power/reset" groups="partner" />
+  <project path="private/google-modules/power/reset" name="google-modules_power_reset" groups="partner" remote="hentai" />
   <project path="private/google-modules/sensors/hall_sensor" name="kernel/google-modules/sensors/hall_sensor" groups="partner" />
   <project path="private/google-modules/touch/common" name="kernel/google-modules/touch/common" groups="partner" />
   <project path="private/google-modules/touch/focaltech" name="google-modules_touch_focaltech_touch" groups="partner" remote="hentai" />
