@@ -35,7 +35,7 @@
     <linkfile dest="private/google-modules/soc/gs/arch/arm64/boot/dts/google/devices/cloudripper" src="dts/google"/>
     <linkfile dest=".d4.bazelrc" src="device.bazelrc"/>
   </project>
-  <project path="private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="partner" />
+  <project path="private/google-modules/amplifiers" name="google-modules_amplifiers" groups="partner" remote="hentai" />
   <project path="private/google-modules/aoc" name="google-modules_aoc" groups="partner" remote="hentai" />
   <project path="private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="partner" />
   <project path="private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner" />
