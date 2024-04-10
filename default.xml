@@ -43,6 +43,7 @@
   <project path="private/google-modules/amplifiers" name="google-modules_amplifiers" groups="partner" remote="hentai" />
   <project path="private/google-modules/aoc" name="google-modules_aoc" groups="partner" remote="hentai" />
   <project path="private/google-modules/aoc_ipc" name="kernel/google-modules/aoc-ipc" groups="partner" />
+  <project path="private/google-modules/bluetooth/qcom" name="google-modules_bluetooth_qcom" groups="partner" remote="hentai" />
   <project path="private/google-modules/bluetooth/broadcom" name="kernel/google-modules/bluetooth/broadcom" groups="partner" />
   <project path="private/google-modules/bms" name="google-modules_bms" groups="partner" remote="hentai" />
   <project path="private/google-modules/display" name="google-modules_display" groups="partner" remote="hentai" />
@@ -71,6 +72,8 @@
   <project path="private/google-modules/wlan/bcm4389" name="google-modules_wlan_bcmdhd_bcm4389" groups="partner" remote="hentai" />
   <project path="private/google-modules/wlan/bcm4398" name="kernel/google-modules/wlan/bcmdhd/bcm4398" groups="partner" />
   <project path="private/google-modules/wlan/wlan_ptracker" name="kernel/google-modules/wlan/wlan_ptracker" groups="partner" />
+  <project path="private/google-modules/wlan/wcn6740/cnss2" name="google-modules_wlan_qcom_wcn6740_cnss2" groups="partner" remote="hentai"  />
+  <project path="private/google-modules/wlan/wcn6740/wlan" name="google-modules_wlan_qcom_wcn6740_wlan" groups="partner" remote="hentai" />
   <project path="build/kernel" name="kernel/build" groups="partner" >
     <linkfile dest="tools/bazel" src="kleaf/bazel.sh"/>
     <linkfile dest="build/build.sh" src="build.sh"/>
